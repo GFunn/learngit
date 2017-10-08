@@ -12,4 +12,12 @@ git log --pretty=oneline
 #2#	git checkout -- FineName
 丢弃修改：如果存入了stage暂存区，1+2，如果还没add，2
 
+git rm FileName
+
+cd ~
+ssh-keygen -t rsa -C 'kirkgang@qq.com'
+cd .ssh
+cat id_rsa.pub
+创建ssh密钥，id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，
+id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。
 
